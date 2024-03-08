@@ -182,7 +182,7 @@ if (commandName === 'credit') {
                
                     
                     try {
-                         await message.reply({ files: [newCaptcha.png], content: newCaptcha.text });
+                         await message.reply({ files: [newCaptcha.png]});
                          const filter = (responseMessage) => {
                             if (responseMessage.author.id === userId) {
                                 if (responseMessage.content !== newCaptcha.text) {
