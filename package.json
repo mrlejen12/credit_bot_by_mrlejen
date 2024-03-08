@@ -1,0 +1,17 @@
+{
+  "name": "credit_bot_by_mrlejen",
+  "version": "1.0.0",
+  "description": "by mrlejen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "MrLejen",
+  "license": "ISC",
+  "dependencies": {
+     "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "captcha-canvas": "^3.2.1"
+  }
+}
